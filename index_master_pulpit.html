@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2f8099">
+  <title>META-GENIUSZ™</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    html, body {
+      min-width: 320px;
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #2f8099;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .title-bar {
+      width: min(527px, calc(100% - 10px));
+      margin: 28px 0 0 5px;
+      padding: 0 0 5px;
+      border-bottom: 4px solid #fff;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(26px, 2.84vw, 40px);
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: .015em;
+    }
+
+    h1 sup {
+      position: relative;
+      top: -.12em;
+      font-size: .55em;
+      line-height: 0;
+      vertical-align: baseline;
+    }
+
+    .tools {
+      width: calc(100% - 48px);
+      min-height: calc(100vh - 120px);
+      margin: 20px auto 24px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-rows: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .tool-button {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      background: #fff;
+      color: #2f8099;
+      font-size: clamp(14px, 1.15vw, 18px);
+      font-weight: 700;
+      line-height: 1.35;
+      text-align: center;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+      transition: background-color .15s ease, color .15s ease;
+    }
+
+    .tool-button:hover,
+    .tool-button:focus-visible {
+      background: transparent;
+      color: #fff;
+    }
+
+    .tool-button:focus-visible {
+      outline: 3px solid #fff;
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 1000px) {
+      .tools {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: repeat(5, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 680px) {
+      .tools {
+        width: calc(100% - 24px);
+        min-height: calc(100vh - 112px);
+        margin-top: 16px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: repeat(7, minmax(72px, 1fr));
+        gap: 10px;
+      }
+
+      .tool-button { padding: 10px; }
+    }
+
+    @media (max-width: 420px) {
+      .tools {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        grid-auto-rows: minmax(58px, auto);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="title-bar">
+    <h1>META-GENIUSZ<sup>™</sup></h1>
+  </header>
+  <main class="tools" aria-label="Narzędzia">
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/4c50750d69a7?social_preview=true&amp;skid=9814217b-3510-4640-b69c-084034f89da4"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Spiral Mind</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/de88f57eb1a1"
+      target="_blank"
+      rel="noopener noreferrer"
+    >eb1a1 R z Bogiem</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/b7898c3e8e80"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Rozmowa z Bogiem</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/117cf9545dcc"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># LOGOS SYSTEM v2.1: TOTAL RECALL</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/101ea46ea419"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># LOGOS SYSTEM: Markdown Core</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/5e125ef0bc05?skid=e792724f-3149-495d-9f0d-f4c1ce265a88"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># LOGOSv7.0 // OMNI-PROCESSOR</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/23ff8ed2b3ed?skid=064a0851-0ad5-4f53-badf-7e00bde6d4b1"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Książka Głosowa</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/57e5b9ee136b"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Dziennik</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/dd6359a28d68?social_preview=false&amp;skid=6c1b15e7-243c-448b-bd01-8bc99279e251"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># MD do PDF Turbo</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/332be3197d1e?social_preview=false&amp;skid=4befd088-b88a-4239-adaa-1bc31ed9472f"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># Agentic Architekt &amp; Turbo PDF</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/f4a1a84baee4?social_preview=false&amp;skid=efb8907c-817c-4fbd-9c81-49e2c8bbfbe0"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># DOCUMENT STUDIO</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/49a5ae5d823c?social_preview=false&amp;skid=20a86e4c-770d-40ab-962d-7bf8536675d2"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># DOCUMENT STUDIO &amp; CONCEPT ARCHITECT</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/1c1e20741eeb?social_preview=false&amp;skid=0c502649-3c9a-4760-8d70-906cf92a7fbe"
+      target="_blank"
+      rel="noopener noreferrer"
+    >JSK Hybrid 500</a>
+    <a
+      class="tool-button"
+      href="https://sobieranskip95patryk.github.io/X/"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># MTAQuestWebsideX</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/812cd5e7eb9b"
+      target="_blank"
+      rel="noopener noreferrer"
+    >MTAQuest Hybrid</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/ab0afae815cc"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># ENIGMA CYCLOPEDIA V1.0</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/8bc38ae59791"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># BOOKMASTER PRO</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/b00d9c6fc68b"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># INTER ŚWIAT // ANALIZATOR</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/649eaf194947"
+      target="_blank"
+      rel="noopener noreferrer"
+    ># INTER ŚWIAT // MEGA-READER (45MB+)</a>
+    <a
+      class="tool-button"
+      href="https://gemini.google.com/share/a85ad76200a9"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Markdown Mastermind</a>
+    <a
+      class="tool-button"
+      href="https://github.com/sobieranskip95patryk?tab=repositories"
+      target="_blank"
+      rel="noopener noreferrer"
+    >GitHub</a>
+  </main>
+</body>
+</html>
